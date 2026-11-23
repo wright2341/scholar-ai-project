@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in — ScholarAI</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/app.js" defer></script>
+</head>
+<body class="auth-page">
+  <aside class="auth-aside">
+    <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/images/scholarai-logo.png" alt="Scholar AI"></a>
+    <div class="auth-quote"><span class="quote-mark">“</span><blockquote>Learning looks different on everyone. That's the point.</blockquote><div class="quote-person"><span class="quote-avatar">M</span><span><strong>Maya Chen</strong><br>ScholarAI learner</span></div></div>
+    <span class="auth-footer">A little help goes a long way.</span>
+  </aside>
+  <main class="auth-form-panel">
+    <form class="auth-form" id="login-form">
+      <span class="eyebrow">WELCOME BACK</span>
+      <h1>Good to see you.</h1>
+      <p>Pick up right where you left off.</p>
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" placeholder="you@school.edu" autocomplete="email" required>
+      <label for="password">Password</label>
+      <div class="input-wrap"><input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" minlength="6" required><button class="password-toggle" type="button" aria-label="Show password">Show</button></div>
+      <div class="form-row"><label><input type="checkbox" name="remember"> Remember me</label><a href="#forgot">Forgot password?</a></div>
+      <button class="button button-primary auth-submit" type="submit">Log in <span aria-hidden="true">→</span></button>
+      <p class="form-message" role="status" aria-live="polite"></p>
+      <div class="auth-divider">or continue with</div>
+      <button class="button google-button" type="button"><strong>G</strong> Continue with Google</button>
+      <p class="auth-footnote">New to ScholarAI? <a href="dashboard.html">Create an account</a></p>
+      <p class="auth-footnote"><a href="admin-login.html">Administrator? Admin sign-in</a></p>
+    </form>
+  </main>
+</body>
+</html>

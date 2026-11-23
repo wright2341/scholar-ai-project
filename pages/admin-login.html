@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin sign-in — ScholarAI</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/app.js" defer></script>
+</head>
+<body class="auth-page">
+  <aside class="auth-aside">
+    <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/images/scholarai-logo.png" alt="Scholar AI"></a>
+    <div class="auth-quote"><span class="quote-mark">“</span><blockquote>Good support starts with seeing the whole community.</blockquote><div class="quote-person"><span class="quote-avatar">A</span><span><strong>ScholarAI</strong><br>Academic support</span></div></div>
+    <span class="auth-footer">Administrator preview</span>
+  </aside>
+  <main class="auth-form-panel">
+    <form class="auth-form" id="admin-login-form">
+      <span class="eyebrow">ADMINISTRATOR</span>
+      <h1>Admin sign-in</h1>
+      <p>Access the ScholarAI administration preview.</p>
+      <div class="auth-demo-note" role="note">Prototype only: this screen does not verify credentials. Admin access is not secure until a real authentication backend is connected.</div>
+      <label for="email">Administrator email</label>
+      <input id="email" name="email" type="email" placeholder="admin@school.edu" autocomplete="username" required>
+      <label for="password">Password</label>
+      <div class="input-wrap"><input id="password" name="password" type="password" placeholder="Enter any demo password" autocomplete="current-password" minlength="6" required><button class="password-toggle" type="button" aria-label="Show password">Show</button></div>
+      <button class="button button-primary auth-submit" type="submit">Open admin demo <span aria-hidden="true">→</span></button>
+      <p class="form-message" role="status" aria-live="polite"></p>
+      <p class="auth-footnote"><a href="login.html">Return to student sign-in</a></p>
+    </form>
+  </main>
+</body>
+</html>

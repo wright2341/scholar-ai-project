@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>My profile — ScholarAI</title><link rel="stylesheet" href="../assets/css/styles.css"><script src="../assets/js/app.js" defer></script></head>
+<body><div class="app-shell" data-page="profile"><aside class="sidebar" id="sidebar"></aside><div class="app-main"><header class="topbar" id="topbar"></header><main class="page-content">
+  <div class="page-heading"><div><h1>Your profile</h1><p>Keep your account and learning details up to date.</p></div></div>
+  <section class="profile-page-grid">
+    <article class="panel profile-summary">
+      <span class="profile-avatar profile-avatar-large" data-profile-avatar>JD</span>
+      <h2>Make this space yours.</h2>
+      <p>Your profile is saved on this device in this prototype.</p>
+      <div class="profile-badges"><span>✦ Learner</span><span>◷ Since Fall 2025</span></div>
+    </article>
+    <form class="panel profile-form" id="profile-form">
+      <div class="panel-heading"><div><h2>Personal details</h2><p>Only update information you want to share with your school.</p></div></div>
+      <label for="profile-name">Full name</label>
+      <input id="profile-name" name="name" type="text" autocomplete="name" maxlength="80" required>
+      <label for="profile-email">Email address</label>
+      <input id="profile-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+      <label for="profile-program">Program of study</label>
+      <input id="profile-program" name="program" type="text" maxlength="80" required>
+      <label for="profile-year">Study year</label>
+      <select id="profile-year" name="year" required><option>First year</option><option>Second year</option><option>Third year</option><option>Fourth year</option><option>Graduate student</option></select>
+      <p class="form-message" role="status" aria-live="polite"></p>
+      <div class="profile-actions"><button class="button button-primary" type="submit">Save changes</button><a class="button button-outline" href="../index.html" data-profile-logout>↪ Log out</a></div>
+    </form>
+  </section>
+</main></div></div></body></html>
